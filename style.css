@@ -1,6 +1,6 @@
 .fundo
-{
-    background-color: #043873;
+{   
+    background-image: url(img/fundo2.png);
     display: flex;
     width: 100%;
 }
@@ -40,17 +40,20 @@
 }
 .texto
 {
+    text-decoration: none;
     font-weight: bold;
     color: white;
 }
 .texto2
 {
+    text-decoration: none;
     color:  #043873;
     font-weight: bold;
     margin:10px;
 }
 .texto3
 {
+    text-decoration: none;
     color: #FFFFFF;
     font-weight: bold;
     margin:10px;
