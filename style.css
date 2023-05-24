@@ -218,7 +218,7 @@ img {
   }
 }
 
-@media (min-width: 320px) {
+@media (max-width: 320px) {
   .imagem {
     display: flex;
     justify-content: center;
