@@ -1,0 +1,121 @@
+.fundo
+{
+    background-color: #043873;
+    display: flex;
+    width: 100%;
+}
+.cabeca
+{
+    justify-content: flex-end;
+}
+.prod
+{
+    margin-left: 100px;
+    display: inline-block;
+    margin: 15px;
+
+}
+.setinha
+{
+    margin: 0px;
+    display: inline-block;
+}
+.botao1
+{
+
+    text-align: center;
+    display: inline-block;
+   
+}
+.botao2
+{
+    text-align: center;
+    align-items:center;
+    display: inline-block;
+    width: 227px;
+    height: 60px;
+
+    background: #4F9CF9;
+    border-radius: 8px;
+}
+.texto
+{
+    font-weight: bold;
+    color: white;
+}
+.texto2
+{
+    color:  #043873;
+    font-weight: bold;
+    margin:10px;
+}
+.texto3
+{
+    color: #FFFFFF;
+    font-weight: bold;
+    margin:10px;
+}
+.botao3
+{
+    width: 126px;
+    height: 60px;
+
+    background: #FFE492;
+    border-radius: 8px; 
+    display: flex;
+     justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center; 
+}
+.botao4
+{
+    width: 227px;
+    height: 60px;
+
+    background: #4F9CF9;
+    border-radius: 8px;
+    display: flex;
+     justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center; 
+}
+.botoes
+{
+    margin-left: 70px;
+    display: inline-block;
+}
+.logo
+{
+    margin-left: 50px;
+}
+.letras
+{
+    display: inline-block;
+    margin-left: 100px;
+}
+.btn
+    {
+        display: none;
+    }
+
+@media (max-width: 726px)
+{
+    .letras
+    {
+        display:none;
+    }
+    .botoes
+    {
+        display:none;
+    }
+    .logo
+    {
+        display: inline-block;
+        margin-left: 0px;
+    }
+    .btn
+    {
+        display: inline-block;
+        margin-left: 400px;
+    }
+
+    
+}
