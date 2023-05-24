@@ -1,157 +1,148 @@
-
-.elemento .back
-{
-    min-width: 100%;
-    max-width: 100%;
-    height: auto;
+.elemento .back {
+  min-width: 100%;
+  max-width: 100%;
+  height: auto;
 }
-.container
-{
-    display: inline;
-    align-items: center;
-}
-
-.fundo
-{   
-    overflow: hidden;
-    background-color:#043873;
-    display: flex;
-    width: 1260px/768px;
+.container {
+  display: inline;
   align-items: center;
 }
-.cabeca
-{
-    justify-content: space-between;
-}
-.prod
-{
-    margin-left: 100px;
-    display: inline-block;
-    margin: 15px;
 
+.fundo {
+  overflow: hidden;
+  background-color: #043873;
+  display: flex;
+  max-width: 1260px;
+  min-width: 320px;
+  align-items: center;
+  margin: auto;
 }
-.setinha
-{
-    margin: 0px;
-    display: inline-block;
+.cabeca {
+  justify-content: space-between;
 }
-.botao1
-{
+.prod {
+  margin-left: 100px;
+  display: inline-block;
+  margin: 15px;
+}
+.setinha {
+  margin: 0px;
+  display: inline-block;
+}
+.botao1 {
+  text-align: center;
+  display: inline-block;
+}
+.botao2 {
+  text-align: center;
+  align-items: center;
+  display: inline-block;
+  width: 227px;
+  height: 60px;
 
-    text-align: center;
-    display: inline-block;
-   
+  background: #4f9cf9;
+  border-radius: 8px;
 }
-.botao2
-{
-    text-align: center;
-    align-items:center;
-    display: inline-block;
-    width: 227px;
-    height: 60px;
+.texto {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+.texto2 {
+  text-decoration: none;
+  color: #043873;
+  font-weight: bold;
+  margin: 10px;
+}
+.texto3 {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  margin: 10px;
+}
+.botao3 {
+  width: 126px;
+  height: 60px;
 
-    background: #4F9CF9;
-    border-radius: 8px;
+  background: #ffe492;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center; /* Centraliza os itens horizontalmente */
+  align-items: center;
 }
-.texto
-{
-    text-decoration: none;
-    font-weight: bold;
-    color: white;
-}
-.texto2
-{
-    text-decoration: none;
-    color:  #043873;
-    font-weight: bold;
-    margin:10px;
-}
-.texto3
-{
-    text-decoration: none;
-    color: #FFFFFF;
-    font-weight: bold;
-    margin:10px;
-}
-.botao3
-{
-    width: 126px;
-    height: 60px;
+.botao4 {
+  width: 227px;
+  height: 60px;
 
-    background: #FFE492;
-    border-radius: 8px; 
-    display: flex;
-     justify-content: center; /* Centraliza os itens horizontalmente */
-    align-items: center; 
+  background: #4f9cf9;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center; /* Centraliza os itens horizontalmente */
+  align-items: center;
 }
-.botao4
-{
-    width: 227px;
-    height: 60px;
+.botoes {
+  margin-right: 0px;
+  margin-left: 70px;
+  display: inline-block;
+}
+.logo {
+  margin-left: 50px;
+}
+.letras {
+  display: inline-block;
+  margin-left: 100px;
+}
+.btn {
+  display: none;
+}
 
-    background: #4F9CF9;
-    border-radius: 8px;
-    display: flex;
-     justify-content: center; /* Centraliza os itens horizontalmente */
-    align-items: center; 
+.titulo {
+  padding: 40px;
+  color: white;
+  margin: 30%;
+  text-decoration: none;
+  color: #ffffff;
+  max-width: 1260px;
+  height: auto;
+  justify-content: center;
+  position: absolute;
+  text-align: center;
 }
-.botoes
-{
-    margin-right: 0px;
-    margin-left: 70px;
+.pagina2 {
+  background-color: white;
+  max-width: 1260px;
+  min-width: 320px;
+  margin: auto;
+}
+
+.img {
+  width: 50%;
+}
+@media (max-width: 768px) {
+  .letras {
+    display: none;
+  }
+  .botoes {
+    display: none;
+  }
+  .logo {
     display: inline-block;
-}
-.logo
-{
-    margin-left: 50px;
-}
-.letras
-{
+    margin-left: 0px;
+  }
+  .btn {
     display: inline-block;
-    margin-left: 100px;
-}
-.btn
-    {
-        display: none;
-    }
-
-@media (max-width: 726px)
-{
-    .letras
-    {
-        display:none;
-    }
-    .botoes
-    {
-        display:none;
-    }
-    .logo
-    {
-        display: inline-block;
-        margin-left: 0px;
-    }
-    .btn
-    {
-        display: inline-block;
-        margin-left: 400px;
-    }
-    .fundo
-    {
+    margin-left: 400px;
+  }
+  .fundo {
     display: flex;
     width: 100%;
-    }
-    
-}
-.titulo
-{
-    padding: 40px;
-    color: white;
-    margin: 30%;
-    text-decoration: none;
-    color: #FFFFFF;
-    max-width: 1260px;
-    height: auto;
+  }
+  .imagem {
+    display: flex;
     justify-content: center;
-    position: absolute;
-    text-align: center;
+    width: 110%;
+  }
+}
+
+@media (max-width: 320px) {
 }
