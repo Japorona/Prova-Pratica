@@ -2,7 +2,7 @@
 {   
     background-image: url(img/fundo2.png);
     display: flex;
-    width: 100%;
+    width: 1260px/768px;
 }
 .cabeca
 {
@@ -119,6 +119,11 @@
         display: inline-block;
         margin-left: 400px;
     }
-
+    .fundo
+    {
+    background-image: url(img/fundo3.png);
+    display: flex;
+    width: 100%;
+    }
     
 }
