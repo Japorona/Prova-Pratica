@@ -109,6 +109,8 @@
   position: absolute;
   text-align: center;
 }
+/* começo da segunda pagina */
+
 .pagina2 {
   background-color: white;
   max-width: 1260px;
@@ -158,13 +160,43 @@
   top: 370px;
   margin-left: 650px;
   height: 40px;
-  width: 100px;
+  width: 100;
   flex: 2;
   order: 1;
   align-self: stretch;
   flex-grow: 0;
   z-index: 1;
+  background-color: #4f9cf9;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-weight: bold;
 }
+#jean-viado {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  width: 130px;
+  height: 40px;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  text-decoration-color: black;
+}
+#qualquercoisa {
+  color: black;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+  height: 44px;
+  text-align: center;
+  align-self: stretch;
+  line-height: 35px;
+  position: relative;
+  font-size: 15px;
+}
+
 img {
   width: 50%;
 }
@@ -218,7 +250,7 @@ img {
   }
 }
 
-@media (min-width: 320px) {
+@media (max-width: 320px) {
   .imagem {
     display: flex;
     justify-content: center;
