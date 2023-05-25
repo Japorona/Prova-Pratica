@@ -1,18 +1,21 @@
 .back {
   width: 106%;
+  margin: 0%;
+
 }
+
 .container {
   display: inline;
   align-items: center;
 }
 
 .fundo {
-  overflow: hidden;
   background-color: #043873;
-  display: flex;
-  width: 100%;
-  align-items: center;
-  margin: auto;
+  max-width: 1260px;
+  min-width: 320px;
+  margin: 0%;
+  padding: 0%;
+  padding: 0%;
 }
 .cabeca {
   justify-content: space-between;
@@ -133,12 +136,16 @@
   line-height: 35px;
 }
 /* começo da segunda pagina */
-
+/* começo da segunda pagina */
+/* começo da segunda pagina */
+/* começo da segunda pagina */
+/* começo da segunda pagina */
+/* começo da segunda pagina */
 .pagina2 {
   background-color: white;
   max-width: 1260px;
   min-width: 320px;
-  margin: auto;
+  margin: 0%;
 }
 
 .titulo2 {
