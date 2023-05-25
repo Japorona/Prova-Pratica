@@ -1,3 +1,11 @@
+.pagina1
+{
+  background-color: white;
+  max-width: 110%;
+  min-width: 320px;
+  margin: 0%;
+}
+
 .back {
   width: 106%;
   margin: 0%;
@@ -10,11 +18,9 @@
 
 .fundo {
   background-color: #043873;
-  max-width: 1260px;
-  min-width: 320px;
+  max-width: 110%;
+  min-width: 768px;
   margin: 0%;
-  padding: 0%;
-  padding: 0%;
 }
 .cabeca {
   justify-content: space-between;
@@ -142,7 +148,7 @@
 /* começo da segunda pagina */
 .pagina2 {
   background-color: white;
-  max-width: 1260px;
+  max-width: 110%;
   min-width: 320px;
   margin: 0%;
 }
@@ -237,9 +243,10 @@ img {
   .pagina2 {
     background-color: white;
     max-width: 1260px;
-    min-width: 320px;
+    min-width: 720px;
     margin-top: 800px;
     margin-left: -750px;
+    
   }
   .social-midia {
     display: none;
@@ -356,7 +363,7 @@ img {
     justify-content: space-between;
     margin-left: -950px;
     position: relative;
-    top: 1550px;
+    top: 1500px;
   }
   .terms {
     margin-left: -1000px;
@@ -366,11 +373,25 @@ img {
 }
 
 @media (max-width: 320px) {
+  .pagina2 {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+  }
+  .container
+  {
+    height: 300px;
+  }
+  .social-midia {
+    display: none;
+  }
   footer {
+    display: flex;
+    align-items: center;
     width: 360px;
     height: 360px;
     left: 0px;
-    margin-left: 0px;
+    margin-left: -300px;
   }
   .titulo {
     top: 45%;
@@ -425,7 +446,6 @@ img {
     display: none;
   }
   .logo {
-    display: inline-block;
     margin-left: 0px;
     width: 160px;
     height: 34px;
@@ -441,8 +461,8 @@ img {
     width: 80px;
   }
   .fundo {
-    display: flex;
-    width: 100%;
+    width: 1260px;
+    height: 768px;
   }
 
   .imagem {
@@ -475,6 +495,15 @@ img {
     margin-right: auto;
     top: 20px;
   }
+  .terms
+  {
+    margin: 10%;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .txt{
+    margin: 0%;
+  }
 }
 footer {
   display: flex;
@@ -491,18 +520,16 @@ footer {
   color: #ffffff;
 
 }
-.social {
-  margin-left: 400px;
-  display: inline-block;
-  width: 110px;
-  height: 15px;
-}
+
 .social-midia {
   float: right;
   height: 20px;
   width: 100px;
+  margin-top: 30px;
+  margin-left: 250px;
 }
 .terms {
+  margin-top:30px;
   margin-left: 100px;
   display: flex;
   justify-content: flex-start;
