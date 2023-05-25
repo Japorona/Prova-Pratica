@@ -1,7 +1,5 @@
-.elemento .back {
-  min-width: 100%;
-  max-width: 100%;
-  height: auto;
+.back {
+  width: 106%;
 }
 .container {
   display: inline;
@@ -12,8 +10,7 @@
   overflow: hidden;
   background-color: #043873;
   display: flex;
-  max-width: 1260px;
-  min-width: 320px;
+  width: 100%;
   align-items: center;
   margin: auto;
 }
@@ -39,8 +36,6 @@
   display: inline-block;
   width: 227px;
   height: 60px;
-
-  background: #4f9cf9;
   border-radius: 8px;
 }
 .texto {
@@ -73,7 +68,8 @@
 .botao4 {
   width: 227px;
   height: 60px;
-
+  margin: 2%;
+  margin-left: 5%;
   background: #4f9cf9;
   border-radius: 8px;
   display: flex;
@@ -98,16 +94,43 @@
 }
 
 .titulo {
-  padding: 40px;
+  top: 240px;
   color: white;
-  margin: 30%;
   text-decoration: none;
   color: #ffffff;
-  max-width: 1260px;
+  width: 1260px;
   height: auto;
-  justify-content: center;
-  position: absolute;
+  justify-content: flex-start;
+  position: relative;
+  margin-left: 55px;
+  font-size: 50px;
+  display: flex;
+}
+#subtitulo {
+  top: 220px;
+  color: white;
+  text-decoration: none;
+  color: #ffffff;
+  width: 1260px;
+  height: auto;
+  justify-content: left;
+  position: relative;
+  display: flex;
+  margin-left: 55px;
+  font-size: 20px;
+}
+#try {
+  display: flex;
+  position: relative;
+  background: #4f9cf9;
+  height: 45px;
   text-align: center;
+  border-radius: 9px;
+  width: 150px;
+  top: 240px;
+  margin-left: 5%;
+  color: white;
+  line-height: 35px;
 }
 /* começo da segunda pagina */
 
@@ -201,6 +224,52 @@ img {
   width: 50%;
 }
 @media (max-width: 768px) and (min-width: 321px) {
+  .titulo {
+    top: 45%;
+    color: white;
+    text-decoration: none;
+    color: #ffffff;
+    width: 600px;
+    height: auto;
+    justify-content: left;
+    position: relative;
+    margin-left: 80px;
+    font-size: 50px;
+    display: flex;
+    text-align: center;
+  }
+  #subtitulo {
+    top: 60%;
+    color: white;
+    text-decoration: none;
+    color: #ffffff;
+    width: 700px;
+    height: auto;
+    justify-content: left;
+    margin-left: 5%;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    position: relative;
+  }
+  #try {
+    display: flex;
+    position: relative;
+    background: #4f9cf9;
+    height: 45px;
+    text-align: center;
+    border-radius: 9px;
+    width: 150px;
+    top: 20px;
+    margin-left: 300px;
+    color: white;
+    line-height: 35px;
+    justify-content: center;
+  }
+
+  .back {
+    width: 100%;
+  }
   .letras {
     display: none;
   }
@@ -210,10 +279,18 @@ img {
   .logo {
     display: inline-block;
     margin-left: 0px;
+    width: 160px;
+    height: 34px;
+    margin-left: 20px;
+    margin: 2%;
   }
   .btn {
-    display: inline-block;
-    margin-left: 400px;
+    display: flex;
+    margin-left: 700px;
+    position: relative;
+    top: -50px;
+    height: 40px;
+    width: 80px;
   }
   .fundo {
     display: flex;
@@ -251,6 +328,79 @@ img {
 }
 
 @media (max-width: 320px) {
+  .titulo {
+    top: 45%;
+    color: white;
+    text-decoration: none;
+    color: #ffffff;
+    width: 400px;
+    height: auto;
+    justify-content: left;
+    position: relative;
+    margin-left: 170px;
+    font-size: 50px;
+    display: flex;
+    text-align: center;
+  }
+  #subtitulo {
+    top: 60%;
+    color: white;
+    text-decoration: none;
+    color: #ffffff;
+    width: 280px;
+    height: auto;
+    justify-content: left;
+    margin-left: 230px;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    position: relative;
+  }
+  #try {
+    display: flex;
+    position: relative;
+    background: #4f9cf9;
+    height: 45px;
+    text-align: center;
+    border-radius: 9px;
+    width: 150px;
+    top: 18px;
+    margin-left: 300px;
+    color: white;
+    line-height: 35px;
+    justify-content: center;
+  }
+
+  .back {
+    width: 100%;
+  }
+  .letras {
+    display: none;
+  }
+  .botoes {
+    display: none;
+  }
+  .logo {
+    display: inline-block;
+    margin-left: 0px;
+    width: 160px;
+    height: 34px;
+    margin-left: 20px;
+    margin: 2%;
+  }
+  .btn {
+    display: flex;
+    margin-left: 700px;
+    position: relative;
+    top: -50px;
+    height: 40px;
+    width: 80px;
+  }
+  .fundo {
+    display: flex;
+    width: 100%;
+  }
+
   .imagem {
     display: flex;
     justify-content: center;
