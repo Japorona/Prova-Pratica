@@ -233,7 +233,8 @@
 }
 
 img {
-  width: 50%;
+
+  width: 45%;
 }
 @media (max-width: 768px) and (min-width: 321px) {
   img {
@@ -245,7 +246,7 @@ img {
     max-width: 1260px;
     min-width: 720px;
     margin-top: 800px;
-    margin-left: -750px;
+    margin-left: -950px;
     
   }
   .social-midia {
@@ -326,12 +327,12 @@ img {
     display: flex;
     width: 100%;
   }
-  .imagem {
+  .Imagem {
     display: flex;
     justify-content: center;
-    width: 110%;
-    margin-top: 50px;
-    margin-left: -40px;
+    width: 100%;
+    margin-right: 0px;
+    margin-left: -120px;
   }
   .titulo2 {
     display: flex;
@@ -342,11 +343,12 @@ img {
   }
   .sub-texto {
     display: flex;
+    text-align: center;
     justify-content: center;
     position: relative;
     left: 50px;
     top: 0px;
-    margin-left: 0px;
+    margin-left: 100px;
     width: 600px;
     font-size: 18px;
   }
@@ -465,11 +467,12 @@ img {
     height: 768px;
   }
 
-  .imagem {
+  .Imagem {
+    position: relative;
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 100%;
-    margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
   }
